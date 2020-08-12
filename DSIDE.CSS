@@ -81,7 +81,7 @@ text-align:center;
 
 @media all and (max-width: 450px) {
     .a{
-        width: 200%;
+        width: 400%;
     }
   img{
     width:100%;
