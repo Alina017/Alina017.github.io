@@ -84,7 +84,9 @@ text-align:center;
   img{
     width:400px;
   }
-  x1.widht:300px;
-  x2.widht:300px;
+  #x1{
+    width:300px;
+  }
+  
 }
 
