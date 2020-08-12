@@ -1,24 +1,27 @@
-<html>
+п»ї<html>
+<head>
+<meta charset="utf-8">
+</head>
 <body bgcolor="#82a2eb" text=#e7b6c0>
-<h1>Хочешь выйти на сцену вместе с D.SIDE???
-Тогда заполни анкету и верь, что победишь!!!</h1>
+<h1>РҐРѕС‡РµС€СЊ РІС‹Р№С‚Рё РЅР° СЃС†РµРЅСѓ РІРјРµСЃС‚Рµ СЃ D.SIDE???
+РўРѕРіРґР° Р·Р°РїРѕР»РЅРё Р°РЅРєРµС‚Сѓ Рё РІРµСЂСЊ, С‡С‚Рѕ РїРѕР±РµРґРёС€СЊ!!!</h1>
 
 <form>
 <div id="d1">
   <div>
-    <label for="fname">Имя: </label>
+    <label for="fname">РРјСЏ: </label>
     <input id="fname" type="text">
   </div>
   <div>
-    <label for="lname">Фамилия: </label>
+    <label for="lname">Р¤Р°РјРёР»РёСЏ: </label>
     <input id="lname" type="text">
   </div>
   <div>
-    <label for="hname">Город: </label>
+    <label for="hname">Р“РѕСЂРѕРґ: </label>
     <input id="hname" type="text">
   </div>
 <div>
-    <label for="dname">Возраст: </label>
+    <label for="dname">Р’РѕР·СЂР°СЃС‚: </label>
     <input id="dname" type="text">
   </div>
   <div>
@@ -27,7 +30,7 @@
 </div>
 </form>
 
-<button>Нажмите перед отправкой</button>
+<button>РќР°Р¶РјРёС‚Рµ РїРµСЂРµРґ РѕС‚РїСЂР°РІРєРѕР№</button>
 <script>
 var form = document.querySelector('form');
 var fname = document.getElementById('fname');
@@ -61,7 +64,7 @@ d1.style.borderRadius = "10px";
 form.onsubmit = function(e) {
   if (fname.value === '' || lname.value === '') {
     e.preventDefault();
-    para.textContent = 'Все поля должны быть заполнены!';
+    para.textContent = 'Р’СЃРµ РїРѕР»СЏ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ Р·Р°РїРѕР»РЅРµРЅС‹!';
   }
 }
 var para= document.querySelector('button');
