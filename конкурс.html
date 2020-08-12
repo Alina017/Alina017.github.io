@@ -1,0 +1,82 @@
+<html>
+<body bgcolor="#82a2eb" text=#e7b6c0>
+<h1>Хочешь выйти на сцену вместе с D.SIDE???
+Тогда заполни анкету и верь, что победишь!!!</h1>
+
+<form>
+<div id="d1">
+  <div>
+    <label for="fname">Имя: </label>
+    <input id="fname" type="text">
+  </div>
+  <div>
+    <label for="lname">Фамилия: </label>
+    <input id="lname" type="text">
+  </div>
+  <div>
+    <label for="hname">Город: </label>
+    <input id="hname" type="text">
+  </div>
+<div>
+    <label for="dname">Возраст: </label>
+    <input id="dname" type="text">
+  </div>
+  <div>
+     <input id="submit" type="submit">
+  </div>
+</div>
+</form>
+
+<button>Нажмите перед отправкой</button>
+<script>
+var form = document.querySelector('form');
+var fname = document.getElementById('fname');
+var lname = document.getElementById('lname');
+var hname = document.getElementById('hname');
+var dname = document.getElementById('dname');
+var submit = document.getElementById('submit');
+
+fname.style.background="#e7b6c0";
+lname.style.background="#e7b6c0";
+hname.style.background="#e7b6c0";
+dname.style.background="#e7b6c0";
+submit.style.background="#e7b6c0";
+
+
+form.style.marginLeft = "600px";
+fname.style.marginLeft = "34px";
+hname.style.marginLeft = "23px";
+dname.style.marginLeft = "8px";
+submit.style.marginLeft = "80px";
+submit.style.marginTop= "5px";
+
+
+d1.style.background="#47a3d8";
+d1.style.width="250px";
+d1.style.height="110px";
+d1.style.position = "absolute";
+d1.style.left = "500px"; 
+d1.style.top= "70px";
+d1.style.borderRadius = "10px";
+form.onsubmit = function(e) {
+  if (fname.value === '' || lname.value === '') {
+    e.preventDefault();
+    para.textContent = 'Все поля должны быть заполнены!';
+  }
+}
+var para= document.querySelector('button');
+para.style.background = "#e7b6c0";
+para.style.marginLeft = "1100px";
+para.style.marginTop = "10px";
+function random(number) {
+  return Math.floor(Math.random()*(number+1));
+}
+
+ para.onclick = function() {
+  var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+  document.body.style.backgroundColor = rndCol;
+}
+
+
+</script>
+</body>
