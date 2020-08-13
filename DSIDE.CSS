@@ -89,9 +89,9 @@ body{
   }
 .b {
   width:100%;
-  min-width:100%;
+ 
   }
   #navbar {
-    width:100%;
+    width:70%;
   }
 }
