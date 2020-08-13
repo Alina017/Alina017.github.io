@@ -79,14 +79,4 @@ color:#FFFFFF;
 text-align:center;
 }
 
-@media all and (max-width: 450px) {
-   
-  img{
-    width:400px;
-  }
-  #x1{
-    width:300px;
-  }
-  
-}
 
