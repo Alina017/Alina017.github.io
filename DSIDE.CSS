@@ -87,4 +87,8 @@ body{
 .a {
   width:100%;
   }
+.b {
+  width:100%;
+  min-width:100%;
+  }
 }
