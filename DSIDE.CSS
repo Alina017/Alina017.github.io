@@ -86,7 +86,7 @@ body{
 }
   
 .a {
-  width:300%;
+  width:250%;
 
   }
 .b {
@@ -97,7 +97,7 @@ body{
     width:150%;
   }
   #f1{
-    height:200%;
-    width:250%;
+    height:150%;
+    width:220%;
   }
 }
